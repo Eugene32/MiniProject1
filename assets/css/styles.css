@@ -1,9 +1,14 @@
 
 
+/* This universally sets fonts  */
+
 *{
   font-family: 'Times New Roman', Times, serif;
  
+  
 }
+
+/* This is used to style the header and the footer */
 
 .style1 {
   border: 2px solid black;
@@ -70,6 +75,10 @@ li{
 
 img:hover{
   opacity: 50%;
+}
 
+footer{
+  padding: 0px;
+  margin: 0px;
 }
 
