@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Welcome Page</title>
+<meta charset="UTF-8">
 <link rel="stylesheet" href="./assets/css/styles.css">
 
 </head>
@@ -8,31 +10,45 @@
 <body>
 
 <!-- This is the navigation bar -->
-<nav class="style1">
-      <a href="https://github.com/">Github</a> 
-     <a href="https://github.com/Eugene32?tab=repositories"> Portfolio</a> 
-     <a href="mailto:ekahiyang@gmail.com">Contact</a> 
-    
-  
-     
-</nav>
+<header class="style1">
+      <a href="https://github.com/" target="_blank"> Github </a>   &#20&#20
+     <a href="https://github.com/Eugene32?tab=repositories" target="_blank" > Portfolio </a>   &#20&#20
+     <a href="mailto:ekahiyang@gmail.com">  Contact </a>      
+</header>
 
 
 
 
 <!-- This section is to show a photo at the middle of the screen. -->
 <section style="text-align: center;">
-	
-<h1>The Chris element during assembly</h1>	
-<img src="C:\Users\qc14\Downloads\Chris.jpg" alt="Trulli" width="300" height="333">
-<p>The nav element defines a set of navigation links:</p>
-
+  <h1>My New Website</h1>
+  <img src="./assets/images/OIP.jpeg" alt="OIP.jpeg" width="400" height="400">
+  
 </section>
 
 <!-- This section is input portion. -->
 <section>
-	<div>
-		
+	<div class="box1">
+    <h2 id=center-pos>Contact Me</h2>
+    <div class="box2">
+      <form>
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          </li>
+          <li>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+          </li>
+        </ul>
+        <div id="center-pos">
+        <button type="submit">SEND</button>  <br>
+        <button type="submit">SEND</button>  
+        </div>
+      </form>
+      
+    </div>
 
 	</div>
 
@@ -40,14 +56,10 @@
 
 
 <!-- This is the footer bar -->
-<footer class="style1">
-	<ul>
-		<li>
-		Text to display
-		</li>
-		<li>
-			<a href="mailto:hege@example.com">hege@example.com</a>
-		</li>
+<footer class="style1" id="center-pos">
+    <ul>
+      <li>&#169 My New Website Productions </li>
+    </ul>
   
 </footer>
 
